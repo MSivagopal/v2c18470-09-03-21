@@ -1,0 +1,16 @@
+package interfa;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		A a = new B();
+		a.show();
+		
+		A c = new C();
+		c.show();
+		c.disp();
+	}
+
+}

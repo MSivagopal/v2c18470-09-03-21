@@ -1,0 +1,6 @@
+package interfa;
+
+public interface A {
+	public void show();
+	public void disp();
+}

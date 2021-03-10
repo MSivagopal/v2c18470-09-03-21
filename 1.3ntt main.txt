@@ -1,0 +1,31 @@
+package com.test.oops;
+
+import java.util.Date;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		NewTeacher s = new NewTeacher();
+		s.setName("siva");
+		s.setLastName("M");
+		s.setDob(new Date());
+		s.setAge("23");
+		
+		Teacher teacher = new Teacher();
+		teacher.setName("sivaji");
+		teacher.setLastName("M");
+		teacher.setDob(new Date());
+		teacher.setAge("24");
+		
+		System.out.println("Teacher Name "+teacher.getName());
+		System.out.println("Teacher LastName "+teacher.getLastName());
+		System.out.println("Teacher Dob "+teacher.getDob());
+		System.out.println("Teacher Age "+teacher.getAge());
+		System.out.println("NewTeacher Name "+s.getName());
+		System.out.println("NewTeacher LastName "+s.getLastName());
+		System.out.println("NewTeacher Dob "+s.getDob());
+		System.out.println("NewTeacher Age "+s.getAge());
+	}
+
+}

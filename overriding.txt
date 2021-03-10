@@ -1,0 +1,15 @@
+package overrid;
+
+public class Fourwheelers extends Automobiles {
+
+	public void car(String Brand, int Model){
+		System.out.println("Fourwheelers Brand:"+Brand);
+		System.out.print("Fourwheelers Model:"+Model);
+	}
+	public static void main(String[] args) {
+		
+		//overriding
+		Fourwheelers f = new Fourwheelers();
+		f.car("Benz",2015);
+	}
+}

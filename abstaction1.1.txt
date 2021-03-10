@@ -1,0 +1,11 @@
+package abstclass;
+
+public abstract class Abstraction {
+	abstract void details();
+	abstract void address();
+	public void company() {
+		System.out.println("sony");
+		
+	}
+
+}

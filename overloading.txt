@@ -1,0 +1,21 @@
+package overrid;
+
+public class Automobiles {
+	
+	public void car (String Brand, int Model){
+		System.out.println("Automobile Brand:"+Brand);
+		System.out.println("Automobile Model:"+Model);
+	}
+	public void car(String Color, String Type){
+		System.out.println(" Automobile Brand:"+Color);
+		System.out.println("Automobile Model:"+Type);
+	}
+	public static void main(String[] args) {
+		
+		//overloading
+		
+		Automobiles a = new Automobiles();
+		a.car("BMW",2008);
+		a.car("black","suv");
+	}
+}

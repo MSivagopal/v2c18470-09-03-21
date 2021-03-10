@@ -1,0 +1,11 @@
+package interfa;
+
+public class C implements A {
+	public void show(){
+		System.out.println("hi");
+	}
+	public void disp() {
+		System.out.println("hii");
+	}
+
+}

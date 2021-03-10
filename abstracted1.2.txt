@@ -1,0 +1,20 @@
+package abstclass;
+
+public class Abstracted extends Abstraction {
+	void details() {
+		System.out.println("Software engineer");
+
+	}
+	void address() {
+		System.out.println("salem");
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Abstracted a = new Abstracted();
+		a.company();
+		a.details();
+	}
+
+}
